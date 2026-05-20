@@ -1,93 +1,139 @@
 # Hey, I'm Rahil 👋
 
-I'm a Python backend developer based in Hyderabad, India — final year CS (AI & ML) at CBIT, Graduation-2026.
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=3B82F6&width=600&lines=Python+Backend+Developer;FastAPI+%7C+RAG+%7C+LightGBM+%7C+SHAP;Building+things+that+actually+work.)
 
-I build backend systems that are actually production-aware: clean APIs, real data pipelines, and AI integrations that go beyond the tutorial. I care about why something works, not just that it works.
+I'm a Python backend developer based in Hyderabad, India — final year CS (AI & ML) at CBIT, graduating 2026.
 
-**🏆 1st place — TechXcelerate 2025, BITS Pilani Hyderabad** (700+ teams, ₹26,000 prize)
+I build backend systems that are actually production-aware: clean APIs, real data pipelines, and AI integrations that go beyond the tutorial. I care about *why* something works, not just that it works.
+
+🏆 **1st place — TechXcelerate 2025, BITS Pilani Hyderabad** (700+ teams, ₹26,000 prize)
 
 ---
 
 ## What I work with
 
-```python
-stack = {
-    "languages":  ["Python", "SQL"],
-    "backend":    ["FastAPI", "Flask", "REST APIs", "Pydantic"],
-    "databases":  ["MySQL", "SQLite", "VectorDB"],
-    "ai_ml":      ["LightGBM", "SHAP", "Optuna", "RAG", "NLP", "AssemblyAI"],
-    "data":       ["Pandas", "NumPy", "Feature Engineering"],
-    "tools":      ["Git", "Docker", "Postman", "Jupyter"],
-}
-```
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
 
 ## Projects worth looking at
 
 ### 🔐 PhishGuard — ML-Powered Phishing Detection API
-> FastAPI · LightGBM · SHAP · Optuna · Docker
 
-Real-time URL phishing detection with explainability built in. Every prediction comes with a SHAP breakdown showing *why* it was flagged — not just a risk score.
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-00B4D8?style=flat-square)
+![SHAP](https://img.shields.io/badge/SHAP-Explainability-orange?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-- Engineered **44 lexical, structural & behavioural features** per URL (Shannon entropy, IP detection, redirect chains, TLD type, and more)
-- **50-trial Optuna** hyperparameter search with 5-fold stratified cross-validation → **95%+ accuracy**
-- Batch prediction endpoint (up to 100 URLs), Pydantic validation, per-request SHAP explanations
+> Real-time URL phishing detection with explainability built in. Every prediction returns a SHAP breakdown showing *why* a URL was flagged — not just a risk score.
+
+- Engineered **44 lexical, structural & behavioural features** per URL (Shannon entropy, IP detection, redirect chains, TLD type)
+- **50-trial Optuna** hyperparameter search + 5-fold stratified cross-validation → **95%+ accuracy**
+- Single + batch prediction endpoints (up to 100 URLs), Pydantic validation, per-request SHAP explanations
 - Fully containerised with Docker
 
-→ [View repo](#) *(https://github.com/YSRaahil/Phishing-Website-Detection-)*
+[
+
+![View Repo](https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white)
+
+](https://github.com/YSRaahil/Phishing-Website-Detection-)
 
 ---
 
 ### 🎤 HealthMate — AI Voice Agent for Health Q&A
-> FastAPI · AssemblyAI · RAG · VectorDB Cloud · React
 
-Speak a health question, get a grounded, source-backed answer — in real time. Built to solve the hallucination problem in medical AI by anchoring every response in a curated knowledge base.
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![AssemblyAI](https://img.shields.io/badge/AssemblyAI-5B4FE9?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-VectorDB-blueviolet?style=flat-square)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+
+> Speak a health question, get a grounded, source-backed answer in real time. Built to solve the hallucination problem in medical AI by anchoring every response in a curated knowledge base.
 
 - Full voice pipeline: **AssemblyAI** transcription → semantic retrieval → LLM generation → React frontend
-- **RAG with metadata-filtered vector search** — no hallucinated medical advice
-- Async streaming responses with intermediate states so the UI never feels frozen
+- **RAG with metadata-filtered vector search** — no hallucinated medical answers
+- Async streaming with intermediate UI states so the app never feels frozen
 
-→ [View repo](https://github.com/YSRaahil/healthmate-ai-voice-agent)
+[![View Repo](https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YSRaahil/healthmate-ai-voice-agent)
 
 ---
 
 ### 🧠 AI Teaching Assistant — SaaS EdTech Platform
-> Flask · MySQL · NLP · HTML/CSS
 
-Built a platform that automates grading, generates personalized learning content, and gives teachers class-wide analytics — all from a multi-role SaaS backend with proper auth and data isolation.
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-AutoGrading-green?style=flat-square)
+![Hackathon](https://img.shields.io/badge/🏆%201st%20Place-TechXcelerate%202025-gold?style=flat-square)
 
-- NLP-based auto-grader using **sentence embedding similarity + keyword anchoring** — no single right answer required
-- Role-based access control enforced at the API layer, not just the UI
+> Automated grading, personalized learning content, and class-wide analytics — from a multi-role SaaS backend with proper auth and data isolation.
+
+- NLP auto-grader using **sentence embedding similarity + keyword anchoring**
+- Role-based access control enforced at the **API layer**, not just the UI
 - Reduced manual evaluation effort by **40–50%** in demo testing
 - **🏆 1st place, TechXcelerate 2025, BITS Pilani** — 700+ teams, ₹26,000
 
-→ [View repo](https://github.com/YSRaahil/ai-virtual-teaching-assistant)
+[![View Repo](https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YSRaahil/ai-virtual-teaching-assistant)
+
+---
+
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YSRaahil&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165"/>
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YSRaahil&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YSRaahil&theme=tokyonight&hide_border=true" height="165"/>
+</p>
+
+---
+
+## Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YSRaahil&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
+</p>
 
 ---
 
 ## Currently working on
 
-- Deepening FastAPI + PostgreSQL patterns (auth, migrations, query optimisation)
-- LeetCode — grinding DSA consistently
-- Targeting backend and data engineering roles at product companies
+- 🔧 Deepening FastAPI + PostgreSQL patterns — auth, migrations, query optimisation
+- 📊 LeetCode grind — consistent DSA practice
+- 🎯 Targeting backend and data engineering roles at product companies
 
 ---
 
 ## A bit more about me
 
-- I co-founded a small creative agency ([Renderera.Visuals](https://www.instagram.com/renderera.visuals)) — so I also know how to talk to clients, not just compilers
+- I co-founded a small creative agency ([Renderera.Visuals](https://www.instagram.com/renderera.visuals)) — so I know how to talk to clients, not just compilers
 - I debug systematically, not by guessing — profiling before optimising is a hill I'll die on
-- I'm more interested in building things that solve real problems than in tech for its own sake
+- More interested in building things that solve real problems than in tech for its own sake
 
 ---
 
 ## Let's connect
 
-- 📧 mohammadrahilsyed@gmail.com
-- 💼 [LinkedIn](#) *(https://www.linkedin.com/in/mohammad-rahil-syed-46257132b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)*
-- 📍 Hyderabad, India — open to remote and relocation
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohammadrahilsyed@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YSRaahil)
+
+📍 Hyderabad, India — open to remote and relocation
 
 ---
 
-*If you're here from a job application — the three repos above are the best place to start. PhishGuard has the most technical depth.*
+![Visitor Count](https://komarev.com/ghpvc/?username=YSRaahil&color=3B82F6&style=flat-square&label=Profile+Views)
+
+*If you're here from a job application — PhishGuard has the most technical depth.*
