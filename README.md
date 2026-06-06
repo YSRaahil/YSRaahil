@@ -86,28 +86,6 @@ I build backend systems that are actually production-aware: clean APIs, real dat
 
 ---
 
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YSRaahil&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YSRaahil&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YSRaahil&theme=tokyonight&hide_border=true" height="165"/>
-</p>
-
----
-
-## Contribution Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YSRaahil&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
-</p>
-
----
-
 ## Currently working on
 
 - 🔧 Deepening FastAPI + PostgreSQL patterns — auth, migrations, query optimisation
@@ -126,7 +104,8 @@ I build backend systems that are actually production-aware: clean APIs, real dat
 
 ## Let's connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](
+https://www.linkedin.com/in/mohammad-rahil-syed-46257132b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohammadrahilsyed@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YSRaahil)
 
