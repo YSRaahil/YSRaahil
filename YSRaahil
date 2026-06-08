@@ -86,28 +86,6 @@ I build backend systems that are actually production-aware: clean APIs, real dat
 
 ---
 
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YSRaahil&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YSRaahil&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YSRaahil&theme=tokyonight&hide_border=true" height="165"/>
-</p>
-
----
-
-## Contribution Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YSRaahil&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
-</p>
-
----
-
 ## Currently working on
 
 - 🔧 Deepening FastAPI + PostgreSQL patterns — auth, migrations, query optimisation
