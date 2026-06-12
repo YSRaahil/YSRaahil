@@ -43,11 +43,7 @@ I build backend systems that are actually production-aware: clean APIs, real dat
 - Single + batch prediction endpoints (up to 100 URLs), Pydantic validation, per-request SHAP explanations
 - Fully containerised with Docker
 
-[
-
-![View Repo](https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white)
-
-](https://github.com/YSRaahil/Phishing-Website-Detection-)
+[![View Repo](https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YSRaahil/Phishing-Website-Detection-)
 
 ---
 
